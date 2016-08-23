@@ -1,0 +1,120 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata:400" rel="stylesheet">
+    <!--<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">-->
+    <script async src="../js/site.js"></script>
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
+    <link href="css/site.css" rel="stylesheet" type="text/css">
+    <title>Dillon Culpepper</title>
+</head>
+<body>
+    <nav id="nav">
+        <ul>
+            <li><a href="#" class="home-link" ontouchend="this.onclick = mobileHoverFix">҉</a></li>
+            <li><a href='#contact' ontouchend="this.onclick = mobileHoverFix">Contact</a></li>
+            <li><a href="#resume" ontouchend="this.onclick = mobileHoverFix">Work</a></li>
+            <li><a href="#about" ontouchend="this.onclick = mobileHoverFix">About</a></li>
+        </ul>
+    </nav>
+
+    <div id="home">
+        <h1>Exploring the development of software delivery</h1>
+    </div>
+
+    <div id="content">
+        <div id="about" class="section left">
+            <div class="section-body">
+                <div class="section-title">
+                    <span class="green">//</span> About
+                </div>
+                <div>
+                    Hi, my name is Dillon Culpepper. I have a passion for software development. I am especially interested in DevOps practices such as Continuous Delivery, Infrastructure through Code, Automated Testing, and shortening the feedback loop between developer and stakeholder. I am optimistic about the future of human computer interaction and am always looking to work with others passionate about improving the human experience through software.
+                </div>
+            </div>
+            <img class="section-image" src="../images/headshot.gif" />
+        </div>
+    
+        <div id="resume" class="section right">
+            <div class="section-body">
+                <div class="section-title">
+                    <span class="green">//</span> Work
+                </div>
+                <div>
+                    Software Developer, DevOps Specialist @ Code Authority
+                </div>
+                <div class="section-subtitle">
+                    <span class="green">{{</span> Projects <span class="green">}}</span>
+                </div>
+                <div>
+                    <a class="section-body-name" href="http://www.3dframesolutions.com/" target="_blank">3D Printer Interpreter</a> <span class="green">~</span> Utilized Jetty's Sailfish firmware to write an .x3g interpreter controlling a 3D printer to print custom models.
+                </div>
+                <div>
+                    <a class="section-body-name">Pinsheet Generation Optimization</a> <span class="green">~</span> Refactored and optimized the algorithm for golf course pin hole selections reducing response time from 30 to less than 9 seconds. Reduced course green visualization response from 5 to under 1 second. 
+                </div>  
+                <div>
+                    <a class="section-body-name">Lobby Portfolio Hub</a> <span class="green">~</span> Developed a Universal Windows Platform Hub app used to display and market Code Authority's software portfolio.
+                </div>  
+                <div>
+                    <a class="section-body-name">Database Replication Worker</a> <span class="green">~</span> Refactored and improved an Azure worker task using SQL change tracking to replicate delta row changes to auxiliary database for a healthcare big data application.
+                </div>    
+            </div>
+            <img class="section-image" src="../images/ca-logo.png" />
+        </div>
+    
+        <div id="education" class="section left">
+            <div class="section-body">
+                <div class="section-title">
+                    <span class="green">//</span> Education
+                </div>
+                <div>
+                    B.Sc. Computer Science, University of Texas at Dallas
+                </div>
+                <div class="section-subtitle">
+                    <span class="green">{{</span> Project <span class="green">}}</span>
+                </div>
+                <div>
+                    <span class="section-body-name">FieldNotes</span> <span class="green">~</span> As a senior project, utilized Meteor JS framework and MongoDB to develop a stack exchange like wiki for academic papers, with the goal of bubbling field impactful dissertations into discussion.
+                </div>
+            </div>
+            <img class="section-image" src="../images/meteor-logo.svg" />
+        </div>
+
+        <div id="site-stack" class="section right">
+            <div class="section-body">
+                <div class="section-title">
+                    <span class="green">//</span> Site Stack
+                </div>
+                <div>
+                    Built with .NET Core 1 using only three nuget packages. The source is pushed to a git repository held in Visual Studio Team Services, where the code is built and deployed to Azure by Powershell scripts.
+                </div>
+            </div>
+            <img class="section-image" src="../images/azure-logo.png" />
+        </div>
+
+        <div id="contact" class="section">
+            <div class="section-body">
+                <div class="section-title">
+                    <span class="green">//</span> Contact
+                </div>
+                <div>
+                    me@dillonc.com
+                </div>
+                <div>
+                    <a href="https://github.com/okcompuder" target="_blank">
+                        <img class="social-logo" src="../images/github-logo.png" />
+                    </a>
+                    <a href="https://twitter.com/okcompuder" target="_blank">
+                        <img class="social-logo" src="../images/twitter-logo.png" />
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        ҉ Dillon Culpepper ~ immerse your soul in love
+    </footer>
+</body>
+</html>
